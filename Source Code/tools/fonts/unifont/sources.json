@@ -1,0 +1,8 @@
+{
+  "name": "GNU Unifont",
+  "version": "16.0.04",
+  "url": "https://unifoundry.com/pub/unifont/unifont-16.0.04/",
+  "sha256": "f9c8c7802453f47be02677176aeac2342ee96d354fad7a26cedcce48e68e1d9f",
+  "license": "SIL OFL 1.1 (dual license; SINO uses OFL)",
+  "subset": "CJK Unified Ideographs, CJK punctuation, fullwidth forms"
+}

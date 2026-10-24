@@ -1,0 +1,7 @@
+{
+  "url": "https://github.com/mozillazg/pinyin-data",
+  "commit": "9193766130af24d2ac54230be979b2e98ac66223",
+  "sha256": "621f8ca9eff8519f47e2b17b564fd318161e13bca07eea8c8e04993cd5d3b52e",
+  "license": "MIT",
+  "use": "Readings only; candidate and phrase implementation is SINO code"
+}

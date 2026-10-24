@@ -1,0 +1,9 @@
+# Native desktop application expansion
+
+Completed: independent packaged ring-3 file browser, text editor and process viewer; shared file/config/window/message/clipboard primitives; right-click messages; native file creation, rename, empty-directory removal, same-window drag into directories and opening the native editor; Pinyin/UTF-8 text, clipboard, undo, save and unsaved-close confirmation; a trusted F10 ring-3 task manager can terminate other native processes. Installed process-viewer packages receive ordinary tokens and cannot silently acquire management rights.
+
+Object handles now use separate per-handle cookies and object generations. Duplicate/reduced-rights handles increment reference counts; closing and reusing a slot cannot resurrect a stale handle, even while another reference keeps the object alive. Selftests exercise those cases. Public ABI types no longer include internal kernel declarations.
+
+Validation: normal/test builds; allocator/handle/kernel selfchecks; user process and fault regression; test-native-apps.js tests installation, file creation, Pinyin editing, clipboard, undo, close cancellation, rename, directory drop, process termination and persistent contents. Full release regression is recorded in testing.md.
+
+Limits: native editor is 8 KiB with all-document selection and one undo snapshot; native file browser does not yet provide cross-window drag, Trash/restore, copy or arbitrary default-program association dispatch. Existing trusted desktop Files/TextEdit retain their richer editing/file behavior. Legacy settings/calculator/paint/clock/terminal and OS disk setup still run in ring 0; migrating them remains necessary before claiming all applications are isolated. F10 policy is a trusted launch path; general package administrative-token approval remains TODO.

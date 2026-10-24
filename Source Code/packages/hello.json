@@ -1,0 +1,14 @@
+{
+ "id":"hello",
+ "name":"SINO Hello 原生示例",
+ "version":"1.0.0",
+ "entry":"hello.snx",
+ "license":"MIT — 本项目原创原生示例程序。",
+ "config":{"key":"hello-greeting","value":"Hello from an installed native app"},
+ "shortcut":"hello",
+ "association":"hello",
+ "files":[
+  {"path":"hello.snx","source":"../build32/user/hello.snx"},
+  {"path":"readme.txt","text":"SINO Hello\nInstalled from an SXP1 native package.\n","optional":true}
+ ]
+}

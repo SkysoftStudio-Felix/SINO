@@ -1,0 +1,2 @@
+const {VM}=require('./vm-test'),assert=require('node:assert/strict');
+(async()=>{const vm=new VM('compatibility-qa',4561);try{await vm.start({fresh:true,cpu:'pentium3'});assert.equal(await vm.value('graphics_sse2'),0);await vm.key('f4');await vm.type('6*7=');assert.equal((await vm.state()).windows[0].value,4200);await vm.shot('no-sse2');console.log('PASS: no-SSE2 CPU fallback boots and renders native applications.');}finally{await vm.stop();}})().catch(e=>{console.error(e);process.exitCode=1;});

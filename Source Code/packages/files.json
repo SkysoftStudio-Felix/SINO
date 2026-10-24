@@ -1,0 +1,1 @@
+{"id":"files","name":"SINO 原生文件管理器","version":"0.1.0","entry":"files.snx","license":"MIT - Original SINO application.","shortcut":"files","files":[{"path":"files.snx","source":"../build32/user/files.snx"}]}

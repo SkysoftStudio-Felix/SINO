@@ -1,0 +1,132 @@
+{
+  "version": "SINO 0.10 / SysBASIC 0.3.0",
+  "date": "2026-10-24T12:44:11.450Z",
+  "sourceCommit": "984a96d36637a7657f3fe895fdccb6105541ac1f",
+  "isoSha256": "3b87d73bf185d530efd845d2f49718dd1c4f8f41b7717060318198e36f4ae021",
+  "diskSha256": "f744a5b00bb9f26e738c972a307d75dc7ad85f6c0b9aac68af8f31ca5289f88b",
+  "ideSha256": "2cc717767f2f8d8d25aa80d49e904d94a33f7eb5b90af879c36a1a319233c7c8",
+  "sourceFiles": 175,
+  "regression": [
+    {
+      "test": "test-keyboard.js",
+      "result": "PASS"
+    },
+    {
+      "test": "test-iso.js",
+      "result": "PASS"
+    },
+    {
+      "test": "run-selftest.js",
+      "result": "PASS"
+    },
+    {
+      "test": "test-desktop.js",
+      "result": "PASS"
+    },
+    {
+      "test": "test-recovery.js",
+      "result": "PASS"
+    },
+    {
+      "test": "test-performance.js",
+      "result": "PASS"
+    },
+    {
+      "test": "test-compatibility.js",
+      "result": "PASS"
+    },
+    {
+      "test": "test-typography.js",
+      "result": "PASS"
+    },
+    {
+      "test": "test-chinese-files.js",
+      "result": "PASS"
+    },
+    {
+      "test": "test-settings.js",
+      "result": "PASS"
+    },
+    {
+      "test": "test-install.js",
+      "result": "PASS"
+    },
+    {
+      "test": "test-usermode.js",
+      "result": "PASS"
+    },
+    {
+      "test": "test-packages.js",
+      "result": "PASS"
+    },
+    {
+      "test": "test-network.js",
+      "result": "PASS"
+    },
+    {
+      "test": "test-ide.js",
+      "result": "PASS"
+    },
+    {
+      "test": "test-native-apps.js",
+      "result": "PASS"
+    },
+    {
+      "test": "test-ide-input.js",
+      "result": "PASS"
+    },
+    {
+      "test": "test-ide-panels.js",
+      "result": "PASS"
+    }
+  ],
+  "windowsLauncher": {
+    "launcherSha256": "a7fb3eb663acb1fb49e8e1f830e7671d3e0369596a6d338f639f88c5887f2b46",
+    "result": "PASS",
+    "isoSha256": "3b87d73bf185d530efd845d2f49718dd1c4f8f41b7717060318198e36f4ae021",
+    "checks": [
+      "actual Windows CMD cold start",
+      "GTK window visible",
+      "no-ISO installed disk boots",
+      "native IDE and installed First app run",
+      "hidden/minimized window restored",
+      "repeated CMD launch keeps the same process without duplicates"
+    ]
+  },
+  "cleanDisk": {
+    "version": "SINO 0.10 / SysBASIC 0.3.0",
+    "createdFrom": "new zero-filled 128 MiB private virtual disk; OS and packages installed through their actual installers",
+    "isoSha256": "3b87d73bf185d530efd845d2f49718dd1c4f8f41b7717060318198e36f4ae021",
+    "diskSha256": "f744a5b00bb9f26e738c972a307d75dc7ad85f6c0b9aac68af8f31ca5289f88b",
+    "ideSha256": "2cc717767f2f8d8d25aa80d49e904d94a33f7eb5b90af879c36a1a319233c7c8",
+    "dataStart": 34816,
+    "records": 60,
+    "installed": [
+      "sysbasic",
+      "files",
+      "editor",
+      "tasks",
+      "hello",
+      "basic-first"
+    ],
+    "checks": [
+      "BIOS ISO installation and MBR partitioning",
+      "cold hard-disk boot with no ISO",
+      "five native packages installed independently",
+      "First project opens and handles underscore event names",
+      "preview, standalone executable and GUI-installed app actually run",
+      "installed example survives cold reboot",
+      "blank IDE opens from F11",
+      "no interrupted install journal",
+      "no daily-use disk or personal files used"
+    ]
+  },
+  "thirdPartyVM": "QEMU not redistributed; install separately using the official download channel",
+  "personalDataIncluded": false,
+  "exportedSourceRebuild": {
+    "result": "PASS",
+    "sha256": "3b87d73bf185d530efd845d2f49718dd1c4f8f41b7717060318198e36f4ae021",
+    "byteIdenticalToDeliveredISO": true,
+    "method": "build-release.ps1 using copied exported source, GCC/Binutils and bundled NASM; separate empty output directory"
+  }
+}

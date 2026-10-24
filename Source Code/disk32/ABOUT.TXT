@@ -1,0 +1,20 @@
+SINO 0.10 / Platinum Desktop / SINO SH
+
+Project-specific 32-bit kernel, desktop, window manager and native apps.
+Classic Platinum-inspired appearance, native-size bitmap text and alpha pointer.
+QEMU with absolute pointer input is the active emulator.
+Home data uses an ATA PIO disk with CRC32 and two committed snapshot banks.
+
+Kernel and applications were generated and written for this project by the
+assistant. This is not a FreeDOS, Linux, macOS or Codex source fork.
+Tools, firmware and fonts are third-party components with their own licenses.
+See /boot/sources.txt for details.
+
+Native SNX1 applications use isolated preemptible ring-3 processes.
+Legacy built-in applications still share the kernel during migration.
+1024 x 768 x 32-bit VBE; 64 MB RAM; up to eight windows.
+
+F8 software installer / F9 applications / F10 tasks / F11 SysBASIC.
+Native packages: hello.sxp, files.sxp, editor.sxp, tasks.sxp, sysbasic.sxp.
+SysBASIC 0.2 supports a documented BASIC subset, not the full VB language.
+Run nettest for local ICMP, UDP, TCP, DNS and HTTP checks.

@@ -1,0 +1,3 @@
+const assert=require('node:assert/strict'),path=require('node:path');
+const {VM}=require('./vm-test'),{QMP}=require('./qmp');
+(async()=>{const vm=new VM('launcher-guest',4564);vm.run=process.argv[2];vm.q=await new QMP(4564).connect();try{await vm.key('f4');await vm.type('6*7=');let w=(await vm.state()).windows.find(w=>w.app===3);assert.equal(w.value,4200);await vm.drag(w.x+100,w.y+15,450,120);let moved=(await vm.state()).windows.find(w=>w.app===3);assert(moved.x!==w.x||moved.y!==w.y);await vm.shot('gtk-desktop');await vm.key('ctrl','w');console.log('PASS Visible GTK guest boots, accepts keyboard and drags windows');}finally{vm.q.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

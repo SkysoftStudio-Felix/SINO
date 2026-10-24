@@ -1,0 +1,1 @@
+{"id":"tasks","name":"SINO 原生进程查看器","version":"0.1.0","entry":"tasks.snx","license":"MIT - Original SINO application. F10 launches the trusted system task manager with process-management capability.","shortcut":"tasks","files":[{"path":"tasks.snx","source":"../build32/user/tasks.snx"}]}

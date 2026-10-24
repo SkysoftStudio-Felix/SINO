@@ -1,0 +1,12 @@
+{
+ "id":"sysbasic",
+ "name":"SysBASIC 原生可视化开发",
+ "version":"0.3.0",
+ "entry":"ide.snx",
+ "license":"MIT — Original SINO tools and runtime.",
+ "shortcut":"sysbasic",
+ "files":[
+  {"path":"ide.snx","source":"../build32/user/ide.snx"},
+  {"path":"readme.txt","text":"SysBASIC 0.3.0\nClassic docked workbench, BASIC subset and project save/load.\nBuild selects a standalone executable or an installer package. Installer wizard registers the application in the software library.\nF11 opens the installed IDE.\nUnsupported language/control features are documented in source/docs/ide.md.\n","optional":true}
+ ]
+}

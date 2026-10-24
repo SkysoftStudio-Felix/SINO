@@ -1,0 +1,2 @@
+const {VM}=require('./vm-test');
+(async()=>{const vm=new VM('kernel-selftest',4559);try{await vm.start({fresh:true,image:'sino32-test.img'});const log=vm.log();if(!log.includes('SINO SH FILES PARSER PIPELINES SCRIPTS TEST PASS')||!log.includes('SINO DESKTOP APP SELFTEST PASS'))throw Error(log);console.log(log.slice(-2800));await vm.shot('selftest');}finally{await vm.stop();}})().catch(e=>{console.error(e);process.exitCode=1;});

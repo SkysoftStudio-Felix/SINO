@@ -1,0 +1,97 @@
+SINO 0.10 Development Preview / SysBASIC 0.3.0
+2026-10-24
+
+1. Release folders
+
+Source Code: C/assembly, native applications, BASIC runtime, build tools, and technical documents.
+Compiled Runtime: ISO, clean preinstalled virtual disk, launchers, and native software packages.
+Documentation: this guide, release notes, limitations, third-party notices, verification summary, and screenshots.
+
+The original development disk, your personal files, Git metadata, debug disks, and logs are not included.
+
+2. Start SINO
+
+On Windows, open Compiled Runtime and double-click Start SINO.cmd.
+A Windows build of QEMU is required. The release does not bundle a third-party emulator.
+Official download: https://www.qemu.org/download/#windows
+The launcher searches for QEMU beside the release, under Program Files\qemu, on PATH, or in SINO_QEMU_DIR. On the original development computer it can also find the existing sino\QEMU folder.
+Data\system.img is a clean, preinstalled disk and boots directly.
+Extract the ZIP completely before starting; keep the Compiled Runtime folder intact.
+Press Ctrl+Alt+G to release the mouse. Do not run two instances that write to the same virtual disk.
+The host requirement is Windows 10/11 x64. This release was tested with QEMU 11.1.0 / GTK / TCG.
+
+3. Open the development tool
+
+Inside SINO, press F11 or open the SysBASIC software entry in Applications.
+F9 opens the application manager. SysBASIC, File Manager, Text Editor, Task Manager, and Hello are preinstalled.
+First Program is also registered through the independent installer and can be launched, repaired, or removed.
+F1–F7 retain legacy desktop shortcuts; F8 opens the native installer, F9 the application manager, and F10 the task manager.
+In SysBASIC, F5 runs and F8 steps. Esc stops or cancels the current operation.
+For programming, make sure the indicator at the upper right shows EN. Press Ctrl+Space to switch to system Pinyin input.
+Underscore: Shift + minus. Double quote: Shift + apostrophe. Parentheses: Shift + 9/0.
+Left and right Shift work independently. The keypad supports digits, + - * /, and Enter.
+
+4. Create your first program
+
+1. Press F11 to open SysBASIC and click New. The form is blank, with no default controls or sample code.
+2. Click the Button tool, then press and drag inside the form to draw a rectangle. Release to create the control.
+   Double-click a tool to add it at its default size. Select Pointer to move a control.
+   All eight black handles resize the control. Esc cancels an unfinished drag. Coordinates snap to an 8-pixel grid.
+3. In the property panel on the right, select (Name), enter Run_Button, then set Caption to Run. Press Enter to apply.
+4. Double-click the button to generate the Sub Run_Button_Click() event.
+   Type this inside the procedure: Print "Hello_SINO"
+5. Press F5 to run, then click the button. Hello_SINO appears in the output area. Press Esc to return to design mode.
+6. Choose File > Save Project As and enter /home/user/Projects/MyApp.prj.
+7. Click Build:
+   Executable creates MyApp.snx, which runs directly inside SINO.
+   Installer creates MyApp.sxp; after the separate installation wizard completes, it appears in the application library.
+   Both are native SINO formats and cannot be double-clicked on Windows.
+
+5. Open the supplied runnable example
+
+In the IDE, press Ctrl+O, enter /home/user/Projects/First.prj, and press Enter.
+Press F5 and click Count. The label displays Value: 1, then Value: 2 after the next click.
+The project demonstrates underscores in control, event, and variable names. Its source is in Source Code/disk32/FIRST.*.
+First.snx and First.sxp are included in Compiled Runtime/Examples and the Projects folder.
+For a fresh ISO installation instead of the preinstalled disk, press F2 to open the terminal and run these commands one at a time:
+
+  install /quiet:/boot/sysbasic.sxp
+  mkdir /home/user/Projects
+  cp /boot/first.prj /home/user/Projects/First.prj
+  cp /boot/first.frm /home/user/Projects/First.frm
+  cp /boot/first.bas /home/user/Projects/First.bas
+  sync
+
+Then press F11 to open the IDE and open First.prj as above.
+
+6. Install from the standalone ISO
+
+SINO.iso is a bootable BIOS/Legacy optical-disc image. Attach it to a new virtual CD drive.
+Use at least 64 MiB RAM, standard VGA, PS/2 keyboard/mouse, and an IDE hard disk. Disable UEFI.
+The wizard can partition and install to a new, blank virtual disk. General physical hardware is not supported.
+Install SINO.cmd opens the installation wizard targeting Compiled Runtime/Data/system.img.
+The preinstalled disk includes examples. Reinstalling may overwrite selected contents; make a backup first.
+Never give the experimental installer a physical system disk. The release does not operate on the host's physical disk.
+
+7. Build from source
+
+Requirements: Node.js, GCC/GNU Binutils capable of producing i386 output, and the bundled NASM 3.02.
+In PowerShell, set:
+
+  $env:SINO_TOOLCHAIN='PATH_TO_YOUR_GCC_TOOLCHAIN\bin'
+
+From the Source Code folder, run:
+
+  powershell -NoProfile -ExecutionPolicy Bypass -File build-release.ps1
+
+This builds the system and writes SINO.iso to the neighboring Compiled Runtime folder. It does not upgrade an existing virtual disk.
+For the full self-test build, run build.ps1 -TestImage. Regression steps are in docs/testing.md.
+Changing font resources requires Python and Pillow; routine builds use the resources included in the source.
+
+8. Release status and licenses
+
+This is a runnable operating-system and native BASIC-subset development preview, not a VB6-compatible product.
+Unfinished features and limitations are listed in Release Notes.md. Keep these notes when redistributing the release.
+The project C/assembly and SysBASIC use MIT. Fonts use OFL, Pinyin data uses MIT, and NASM uses BSD.
+Third-party licenses and provenance are under Documentation/Licenses. No Microsoft VB6 code or artwork was imported.
+This release has not been uploaded to a hosting site; the distributor may choose a platform.

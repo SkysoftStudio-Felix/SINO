@@ -1,0 +1,1076 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "All English distribution files except this manifest; runtime disk hash is for the pristine delivery",
+  "files": [
+    {
+      "path": "Compiled Runtime/Data/system.img",
+      "bytes": 134217728,
+      "sha256": "f744a5b00bb9f26e738c972a307d75dc7ad85f6c0b9aac68af8f31ca5289f88b"
+    },
+    {
+      "path": "Compiled Runtime/Examples/First.bas",
+      "bytes": 234,
+      "sha256": "a36636c7f636d56e1f625d473e6e856aabc5015c4bfc52ac057ae33714364d5c"
+    },
+    {
+      "path": "Compiled Runtime/Examples/First.frm",
+      "bytes": 124,
+      "sha256": "f8eef6bbe73ee5b713ea7767dfec872988e051d2fde5f6202e1156775c4875f2"
+    },
+    {
+      "path": "Compiled Runtime/Examples/First.prj",
+      "bytes": 55,
+      "sha256": "fd57efcfca72ec83600a715b139c9d8225df16f8d7b2e8b3e9391e47de6dede2"
+    },
+    {
+      "path": "Compiled Runtime/Examples/First.snx",
+      "bytes": 35968,
+      "sha256": "69ba3fce6aa632e0f545381456c0a142ef376808d4ca6c49ebdbf9a652905143"
+    },
+    {
+      "path": "Compiled Runtime/Examples/First.sxp",
+      "bytes": 37376,
+      "sha256": "008c07b53ae64440bca9a934cc4eda829dac44894df23d54bd9c763898a09a9b"
+    },
+    {
+      "path": "Compiled Runtime/Install SINO.cmd",
+      "bytes": 126,
+      "sha256": "5a98f47c7599969309ca8f1cae603bc2a653fc9b5771830d50c770afb540c92c"
+    },
+    {
+      "path": "Compiled Runtime/Native Applications/apps.snx",
+      "bytes": 4100,
+      "sha256": "d20ebcbae634d084749b949825bd8f584dd39c1ca16747acfce91e4c94b4a6cb"
+    },
+    {
+      "path": "Compiled Runtime/Native Applications/basicrun.snx",
+      "bytes": 35968,
+      "sha256": "695601ee59f526883c00028615d9ce953b6fbb3c66f2806515b36c945469cd71"
+    },
+    {
+      "path": "Compiled Runtime/Native Applications/editor.snx",
+      "bytes": 8384,
+      "sha256": "7b4ee4e94db4982af3b81ba58640d798063663adf1b02658d26c3ca594264f42"
+    },
+    {
+      "path": "Compiled Runtime/Native Applications/files.snx",
+      "bytes": 8480,
+      "sha256": "a4ff308aff1c955112e31d46e18bc65c1924e5946b0aaff271555b205416058b"
+    },
+    {
+      "path": "Compiled Runtime/Native Applications/hello.snx",
+      "bytes": 4100,
+      "sha256": "f581d2b098589553bfb2b5d70e181b0d8fca09596429b93cb50cb9da23cb84fa"
+    },
+    {
+      "path": "Compiled Runtime/Native Applications/ide.snx",
+      "bytes": 49632,
+      "sha256": "2cc717767f2f8d8d25aa80d49e904d94a33f7eb5b90af879c36a1a319233c7c8"
+    },
+    {
+      "path": "Compiled Runtime/Native Applications/setup.snx",
+      "bytes": 16640,
+      "sha256": "371d3972e400cfca1878d286d470de130e89f90f7e03673bd8f5553a5a5eb0a0"
+    },
+    {
+      "path": "Compiled Runtime/Native Applications/tasks.snx",
+      "bytes": 4100,
+      "sha256": "eb04d937f880dc20eedb2899a0345a8d6ac7ba033587c883ca0a3f773cb48f31"
+    },
+    {
+      "path": "Compiled Runtime/SINO.iso",
+      "bytes": 1572864,
+      "sha256": "3b87d73bf185d530efd845d2f49718dd1c4f8f41b7717060318198e36f4ae021"
+    },
+    {
+      "path": "Compiled Runtime/Software Packages/editor.sxp",
+      "bytes": 9792,
+      "sha256": "85d816ce5d5110d6cedff3045b174ff1706022aa82e8a833a7eb0fe44e796692"
+    },
+    {
+      "path": "Compiled Runtime/Software Packages/files.sxp",
+      "bytes": 9888,
+      "sha256": "94248af6212ff65e2f672f65b7a89a52b65142ee0fd7edf5306a769e2ce6581b"
+    },
+    {
+      "path": "Compiled Runtime/Software Packages/hello.sxp",
+      "bytes": 5558,
+      "sha256": "efcbf25c0ff3af89c1f3d1f4923be0c1433230362124d053ed89fcdecd8367a1"
+    },
+    {
+      "path": "Compiled Runtime/Software Packages/sysbasic.sxp",
+      "bytes": 51353,
+      "sha256": "0748608bf6d5e480ee57a84961c66c91365744442fb97165c38ffb12d8d1725b"
+    },
+    {
+      "path": "Compiled Runtime/Software Packages/tasks.sxp",
+      "bytes": 5508,
+      "sha256": "9a23072a2f04b89bc8e2f79782535f38cc6aaec7505a0c729759747c393a871e"
+    },
+    {
+      "path": "Compiled Runtime/Start SINO.cmd",
+      "bytes": 114,
+      "sha256": "ba16810dcb2d59eb444ca0a660b77278c7713289d63cb1bb72e87de493224802"
+    },
+    {
+      "path": "Compiled Runtime/launch.ps1",
+      "bytes": 10167,
+      "sha256": "a3996422c388f7a0f4415ac2184a05285d50e3a0e19f2f1bea95cfa16379cfe7"
+    },
+    {
+      "path": "Documentation/Getting Started.txt",
+      "bytes": 5989,
+      "sha256": "c69a79bc14fcf5a923c43b0cca31db52baf25c747faedb12cd565564d792d2fc"
+    },
+    {
+      "path": "Documentation/Licenses/Bitmap Font OFL License.txt",
+      "bytes": 4556,
+      "sha256": "132de6f93e9b2d469eac93903be3388ce8599ef1a9911e3d09811a4c30fb6221"
+    },
+    {
+      "path": "Documentation/Licenses/Chinese Font Unifont License.txt",
+      "bytes": 53074,
+      "sha256": "49929dd85235d809ceb79efa5bc0289dae70bb754c0d5343f9d8fa4fe19004ac"
+    },
+    {
+      "path": "Documentation/Licenses/Code and Third-Party Sources.md",
+      "bytes": 8403,
+      "sha256": "892015a091604aeff591250b13f049fdb2ad66a752d35c821cb8f2b01568daa5"
+    },
+    {
+      "path": "Documentation/Licenses/NASM-LICENSE.txt",
+      "bytes": 1585,
+      "sha256": "222b65a5fab7ba8ade645970ad21bd5c2e2e6533897d59d1ca0914681c1f9da6"
+    },
+    {
+      "path": "Documentation/Licenses/Pinyin Data MIT License.txt",
+      "bytes": 1076,
+      "sha256": "9c048697be2502a16e8bcb282d5d465a07295b2def0ffb05a269c5d39dbe1586"
+    },
+    {
+      "path": "Documentation/Licenses/SINO-MIT.txt",
+      "bytes": 1074,
+      "sha256": "cab2f61316d28ea7192b3555ef6d7c75d144e47223c5c19ba690945f299cc119"
+    },
+    {
+      "path": "Documentation/Licenses/Unifont-README.txt",
+      "bytes": 29677,
+      "sha256": "0c35716b811d92631b60c92c1ab6a650e5da486f82896c1e87aaef931eb9336a"
+    },
+    {
+      "path": "Documentation/README.md",
+      "bytes": 671,
+      "sha256": "94777c7fe434304f7d819a18fc30870c789f01394d11bf5266b3f7f4624fd51a"
+    },
+    {
+      "path": "Documentation/Release Notes.md",
+      "bytes": 4254,
+      "sha256": "f43c79f45d78109e3cd9dc5a904bacb96e45d06e2a0831cb38cceb48a8d0671e"
+    },
+    {
+      "path": "Documentation/Screenshots/Application Manager.png",
+      "bytes": 21378,
+      "sha256": "9d772982ded04bc78ce12d803b9ae6fc080453a657fca8f6d1ce81f38d9b1996"
+    },
+    {
+      "path": "Documentation/Screenshots/First Program.png",
+      "bytes": 22085,
+      "sha256": "7db33dc8ec91694d51c24c93dc130e7d43442c6fd3740ebcf7317789b13d2ed1"
+    },
+    {
+      "path": "Documentation/Screenshots/Form Designer.png",
+      "bytes": 23250,
+      "sha256": "16c33465ec05918d8356ad510966ffe793bf97628fa567b9a0bc45cd81a7b423"
+    },
+    {
+      "path": "Documentation/Screenshots/Programming Input.png",
+      "bytes": 22533,
+      "sha256": "02a013cb22b6fb56e4def92ae12b28e5ed0499a2fb819d4a337f025ea704dc8c"
+    },
+    {
+      "path": "Documentation/Verification Summary.json",
+      "bytes": 3885,
+      "sha256": "2ca0fbc12cc0ab63a1e005dab1829cc902e0f33eaf3e978e3a28927442d989f6"
+    },
+    {
+      "path": "Source Code/.gitignore",
+      "bytes": 34,
+      "sha256": "58cb3240aacf982ff1d72478af3ad80b70c06f104f6b73c88afc30cb15ac7ccd"
+    },
+    {
+      "path": "Source Code/LICENSE",
+      "bytes": 1074,
+      "sha256": "cab2f61316d28ea7192b3555ef6d7c75d144e47223c5c19ba690945f299cc119"
+    },
+    {
+      "path": "Source Code/README.md",
+      "bytes": 5093,
+      "sha256": "97612dea3d5f59da5b8bb030ddb0b4c63577e5111ac0e3624312994cb6666b9d"
+    },
+    {
+      "path": "Source Code/SOURCES.md",
+      "bytes": 8403,
+      "sha256": "892015a091604aeff591250b13f049fdb2ad66a752d35c821cb8f2b01568daa5"
+    },
+    {
+      "path": "Source Code/build-image32.js",
+      "bytes": 3699,
+      "sha256": "b599b720e5567652b2f7c2045d666434f617b25f0808f8ba6c64f2a4737d0df1"
+    },
+    {
+      "path": "Source Code/build-iso.js",
+      "bytes": 4466,
+      "sha256": "47be5b43161ca0ac727c3ea7c13354ff31088b79f17670f8f0c722ed2cd984b8"
+    },
+    {
+      "path": "Source Code/build-release.ps1",
+      "bytes": 634,
+      "sha256": "120a18cb4faa662475ad89320ea4e737a822c6d6fff9b68c0a6bc6d1a45723a2"
+    },
+    {
+      "path": "Source Code/build.ps1",
+      "bytes": 122,
+      "sha256": "c412bee65f57570ce69c2c442f0a63031dd87207464f12d209ba663d46ac1f05"
+    },
+    {
+      "path": "Source Code/build32.ps1",
+      "bytes": 3882,
+      "sha256": "d7047d7ea5129bb31b0952c8cecc728ec9bf45b6b520616058fb8786d5895297"
+    },
+    {
+      "path": "Source Code/disk32/ABOUT.TXT",
+      "bytes": 1080,
+      "sha256": "4975514d6cb7405a219c536222411fdf0c733550550914c4fb305ebc5290d4f5"
+    },
+    {
+      "path": "Source Code/disk32/CJK_OFL.TXT",
+      "bytes": 54032,
+      "sha256": "3f8beb4ee18c8478e5b53f2bdfecf4a27754b774d29e3311b450c0710b4271c4"
+    },
+    {
+      "path": "Source Code/disk32/DEMO.SH",
+      "bytes": 322,
+      "sha256": "37a6fc844d468f1bc622c9a6b8477502a30abb2920f99477258c9582681a38f5"
+    },
+    {
+      "path": "Source Code/disk32/FIRST.BAS",
+      "bytes": 234,
+      "sha256": "a36636c7f636d56e1f625d473e6e856aabc5015c4bfc52ac057ae33714364d5c"
+    },
+    {
+      "path": "Source Code/disk32/FIRST.FRM",
+      "bytes": 124,
+      "sha256": "f8eef6bbe73ee5b713ea7767dfec872988e051d2fde5f6202e1156775c4875f2"
+    },
+    {
+      "path": "Source Code/disk32/FIRST.PRJ",
+      "bytes": 55,
+      "sha256": "fd57efcfca72ec83600a715b139c9d8225df16f8d7b2e8b3e9391e47de6dede2"
+    },
+    {
+      "path": "Source Code/disk32/FONT_OFL.TXT",
+      "bytes": 4652,
+      "sha256": "f61faab09726913e108c5047e1cebd32b18a8f97a4f7c6cb3943a0279d9b724d"
+    },
+    {
+      "path": "Source Code/disk32/KERNEL.TXT",
+      "bytes": 1472,
+      "sha256": "52349cc39b90e5a4780c5bd474441893649ed3563d19c88463dce23284cf6890"
+    },
+    {
+      "path": "Source Code/disk32/PINYIN.TXT",
+      "bytes": 1097,
+      "sha256": "7ef92f09fea8048c816a36994e8dc31a91d6c21e9d23a4b7411228846e618eda"
+    },
+    {
+      "path": "Source Code/disk32/README.TXT",
+      "bytes": 4278,
+      "sha256": "821808a105135cd12b4b718e7e9ebd8e6fa56ed98ff27782a171329fd7b8dbaf"
+    },
+    {
+      "path": "Source Code/disk32/SOURCES.TXT",
+      "bytes": 3661,
+      "sha256": "20cebba484e8f7180188f2383eb62db8d1cd541003449d52d4522ca1f7e9c1b3"
+    },
+    {
+      "path": "Source Code/disk32/UIASSET.BIN",
+      "bytes": 873794,
+      "sha256": "21a92b4476100cebe17dbd98d0f260844d7ca9e4384d7f1b8c6d466a48b66ffb"
+    },
+    {
+      "path": "Source Code/docs/REPORT-IDE-0.2.1.md",
+      "bytes": 5561,
+      "sha256": "c83341fdd4f496166edc51c63bbb5f0e46d963b02ab5edb18ea3f6485e9f0ff5"
+    },
+    {
+      "path": "Source Code/docs/REPORT-IDE-0.2.md",
+      "bytes": 8838,
+      "sha256": "625c8e60942f84bdd131b04958103f69993470a8acb9b9e978b2a14d8a701db6"
+    },
+    {
+      "path": "Source Code/docs/REPORT-IDE-0.3.md",
+      "bytes": 3005,
+      "sha256": "558ad875b66fdfcbccff17f280ba14a2590573e88588542638329d94c04824de"
+    },
+    {
+      "path": "Source Code/docs/REPORT.md",
+      "bytes": 11272,
+      "sha256": "2c3fc707ce13ae1351c7f33db5b253946be94d21700d82aaa809d58a79d0add9"
+    },
+    {
+      "path": "Source Code/docs/app-dev-guide.md",
+      "bytes": 2568,
+      "sha256": "53f814111e35682bd05ccda0b22c7fc1f9adb324f2a45c6be7220dd82ac13779"
+    },
+    {
+      "path": "Source Code/docs/app-package.md",
+      "bytes": 2404,
+      "sha256": "6353fd6f01fac533d9c0cdac39a4eca32fa04a7b121c215d3be1ad8754c587af"
+    },
+    {
+      "path": "Source Code/docs/architecture.md",
+      "bytes": 3821,
+      "sha256": "2756be18f5c742c84bac6ae0d8a1d9abace1b8876b9cf7f7e0c1714bba0028ce"
+    },
+    {
+      "path": "Source Code/docs/ide.md",
+      "bytes": 10499,
+      "sha256": "b37c840331d417d40646af854710dacdb7ee3febc3c9055b65650c7a555791f9"
+    },
+    {
+      "path": "Source Code/docs/installer.md",
+      "bytes": 3638,
+      "sha256": "d3a307b81c18e84105b86ba88567875e59ead953a5437f74d418f816811d6a41"
+    },
+    {
+      "path": "Source Code/docs/network.md",
+      "bytes": 3034,
+      "sha256": "6f8b31894588ea804cf8eb49abf4efb59f16317b894f3f2a658f7de1a960390d"
+    },
+    {
+      "path": "Source Code/docs/roadmap.md",
+      "bytes": 3949,
+      "sha256": "743d6af8a08af1874b248ece056e6ab0140ca32eb01aa37254cded8135be450e"
+    },
+    {
+      "path": "Source Code/docs/stage-01.md",
+      "bytes": 1327,
+      "sha256": "ca8adcbc7a60c9d61af22cccde5acf25dcac0147d707a5df7b183827661e406f"
+    },
+    {
+      "path": "Source Code/docs/stage-02.md",
+      "bytes": 1403,
+      "sha256": "50f8d9fea475da3776ae5da7a3144339f495cf009a4d9307f5f302075733676a"
+    },
+    {
+      "path": "Source Code/docs/stage-03.md",
+      "bytes": 877,
+      "sha256": "f822d0df5e76ce2fd1c16088f8da2cbcdfff1de716aade93f8576f4b7d80f090"
+    },
+    {
+      "path": "Source Code/docs/stage-04.md",
+      "bytes": 1692,
+      "sha256": "42c5befffed6db8233cd45cab0f551b1dee8982d19fd041cda3dce4664294d34"
+    },
+    {
+      "path": "Source Code/docs/stage-05.md",
+      "bytes": 1813,
+      "sha256": "083674c34acbaf6fb535645fcd31da5a779b2f1a312021bad001de618c2ac911"
+    },
+    {
+      "path": "Source Code/docs/stage-06.md",
+      "bytes": 2089,
+      "sha256": "923fab14a32b55fa740c7f25c041324d32ecb2c2c60c5971dd059d4c599d05b0"
+    },
+    {
+      "path": "Source Code/docs/stage-07.md",
+      "bytes": 619,
+      "sha256": "a32996cbbccd6f38d91bf0ec7b12aa41c455a9a163f1b6b7e15157c9e4e1bd29"
+    },
+    {
+      "path": "Source Code/docs/stage-08.md",
+      "bytes": 305,
+      "sha256": "a997828ab7fc76bb2fa4482b5dd90a0f4f023617483fcbe3542a362a518d0a5c"
+    },
+    {
+      "path": "Source Code/docs/testing.md",
+      "bytes": 7436,
+      "sha256": "ee769021942425c1cbe01591f57e52713bb48b43e510ec06cf03e774795f7c41"
+    },
+    {
+      "path": "Source Code/packages/editor.json",
+      "bytes": 226,
+      "sha256": "c6dba1390a10b1939a6eeb7522797854b9f48c936ec0eec5d8d8f7801565b593"
+    },
+    {
+      "path": "Source Code/packages/files.json",
+      "bytes": 221,
+      "sha256": "4bf1401431b1540af9d5fee4e45ae03d9f28ee80208a6ba6971625cd41d632b4"
+    },
+    {
+      "path": "Source Code/packages/hello.json",
+      "bytes": 458,
+      "sha256": "186edaf02746bee097c7dad479caa6601ac3ef2788972d5b6049dc30c60496e0"
+    },
+    {
+      "path": "Source Code/packages/sysbasic.json",
+      "bytes": 634,
+      "sha256": "7636e4164deb17781b40c6ee43b8845696799be64a6c1af87f251630cd3cf674"
+    },
+    {
+      "path": "Source Code/packages/tasks.json",
+      "bytes": 302,
+      "sha256": "5437bbb308731211cf2ff89c2e8d18f26009aa30b96ab185f26e10179b7ab5ac"
+    },
+    {
+      "path": "Source Code/release/Getting Started.txt",
+      "bytes": 5984,
+      "sha256": "4d6d8fcc5aeaee1ed25392f3efada169deec0e09dde3a32b0037a8548b74219e"
+    },
+    {
+      "path": "Source Code/release/Install SINO.cmd",
+      "bytes": 126,
+      "sha256": "5a98f47c7599969309ca8f1cae603bc2a653fc9b5771830d50c770afb540c92c"
+    },
+    {
+      "path": "Source Code/release/Release Notes.md",
+      "bytes": 4254,
+      "sha256": "f43c79f45d78109e3cd9dc5a904bacb96e45d06e2a0831cb38cceb48a8d0671e"
+    },
+    {
+      "path": "Source Code/release/Start SINO.cmd",
+      "bytes": 114,
+      "sha256": "ba16810dcb2d59eb444ca0a660b77278c7713289d63cb1bb72e87de493224802"
+    },
+    {
+      "path": "Source Code/release/launch.ps1",
+      "bytes": 10167,
+      "sha256": "a3996422c388f7a0f4415ac2184a05285d50e3a0e19f2f1bea95cfa16379cfe7"
+    },
+    {
+      "path": "Source Code/src32/api.h",
+      "bytes": 1871,
+      "sha256": "abde387af8592acb73a840b08de251d11e0ed781c33a4ceee191e4514fdeaba7"
+    },
+    {
+      "path": "Source Code/src32/banner.h",
+      "bytes": 589,
+      "sha256": "79401931f3e541bb8a22d584dde971980093e54a0800de69e36b9ebee9673ad8"
+    },
+    {
+      "path": "Source Code/src32/boot.asm",
+      "bytes": 1936,
+      "sha256": "f01ffed313c0c11194d6a9609968929ea02d7138e84bf560e0d352573e63bb8e"
+    },
+    {
+      "path": "Source Code/src32/console.c",
+      "bytes": 5149,
+      "sha256": "40ca27ee4582c5652a58d1e30ce0d127b8f111c7c3cf1afc9c4bd2a7a6aa309c"
+    },
+    {
+      "path": "Source Code/src32/console.h",
+      "bytes": 395,
+      "sha256": "5ee12ec52241d148ea7ef220051f6b915ad50b03f936dc0d8e9722fd03387630"
+    },
+    {
+      "path": "Source Code/src32/disk.c",
+      "bytes": 2201,
+      "sha256": "5f6594946e231cd735b467edb4b6d0fe534570dd80d47a7e314492bc7b3c54d6"
+    },
+    {
+      "path": "Source Code/src32/disk.h",
+      "bytes": 260,
+      "sha256": "94b679761d309d3cd70f75cfacaab1b909cedb9169f763a7fca136429de2d65e"
+    },
+    {
+      "path": "Source Code/src32/entry.asm",
+      "bytes": 2419,
+      "sha256": "c5604951e8e70f91b58bfdb26c49a7ca4427e883b0ce1229ce28692f760b0217"
+    },
+    {
+      "path": "Source Code/src32/graphics.c",
+      "bytes": 12330,
+      "sha256": "5861f47bcae519f60ebef7a74b5a4011fa918b8d7b6071437bd5f9d6fe21f3cf"
+    },
+    {
+      "path": "Source Code/src32/graphics.h",
+      "bytes": 1212,
+      "sha256": "d75569d9a0216e4fd872a534c9246773f54117ef3cd99f215742f1e30c735378"
+    },
+    {
+      "path": "Source Code/src32/gui.c",
+      "bytes": 66458,
+      "sha256": "ff17db62412d3089f7428c25530909c55c99d9e7d40a96966b9d4ef5e3adb0da"
+    },
+    {
+      "path": "Source Code/src32/gui.h",
+      "bytes": 681,
+      "sha256": "ab3b0e47f182a28af97182dec518dad5d059323bf88119ce79239dfb4bc6d878"
+    },
+    {
+      "path": "Source Code/src32/hello.asm",
+      "bytes": 470,
+      "sha256": "fd34c3e9953be445a4bdd597b0b6709ff0e54aecbe78277334bceac0cd362e12"
+    },
+    {
+      "path": "Source Code/src32/install.c",
+      "bytes": 14995,
+      "sha256": "a03012686fe7a7201945f456906b14d21879883b05b66324817a828b55c704d6"
+    },
+    {
+      "path": "Source Code/src32/install.h",
+      "bytes": 304,
+      "sha256": "42d59e436fda5585f902bfdaff17826d18f927a1a0df875e6c768d1a607ab3fe"
+    },
+    {
+      "path": "Source Code/src32/kernel.c",
+      "bytes": 14104,
+      "sha256": "0aaa1153ccc4d371f6e0898966a2d608c4b8530c663b18cab3899b35ad21247b"
+    },
+    {
+      "path": "Source Code/src32/kernel.h",
+      "bytes": 2233,
+      "sha256": "1dc23e5812cdb7b4625cc7cc324eb22e307be85eac8546f0dc541d04ccea0306"
+    },
+    {
+      "path": "Source Code/src32/keyboard.c",
+      "bytes": 2128,
+      "sha256": "c5f160a3e32c31c831567f14883697a297673b32bec5b1a4a25057c5e5788fe9"
+    },
+    {
+      "path": "Source Code/src32/keyboard.h",
+      "bytes": 175,
+      "sha256": "7840d33abba4c66d2bf6bcc73ef03642db42b7980f250cb2ade72919fa694dda"
+    },
+    {
+      "path": "Source Code/src32/linker.ld",
+      "bytes": 404,
+      "sha256": "172d2d691a68997e993878b6408b7a44494003e514db84071b9313b87c60d7c4"
+    },
+    {
+      "path": "Source Code/src32/loader.asm",
+      "bytes": 4090,
+      "sha256": "9978ec745236eb4f5c462fd80bbbcda9f64fb8ebaedd692a8143ff7e69e4029d"
+    },
+    {
+      "path": "Source Code/src32/locale.inc",
+      "bytes": 15154,
+      "sha256": "1e50422c2743684418eb77b921a2440fdba46f1b0ad072cf7a616b73a5bc7ec1"
+    },
+    {
+      "path": "Source Code/src32/mbr.asm",
+      "bytes": 1088,
+      "sha256": "be5494738946776385f7b2079a5e3ee977dea7f1f46e66171f64af73904beb2e"
+    },
+    {
+      "path": "Source Code/src32/net.c",
+      "bytes": 14600,
+      "sha256": "ada57c371743a071cf3fdffe952106d6b1b61dc9cfeaf121564c351f1bd598f1"
+    },
+    {
+      "path": "Source Code/src32/net.h",
+      "bytes": 1005,
+      "sha256": "81ce66a1fd352e48328b83298c32f0d43bd9057f79c4ea1442b2b3225b0eab3a"
+    },
+    {
+      "path": "Source Code/src32/object.c",
+      "bytes": 2808,
+      "sha256": "28eafcf0a013981ccf64616b82c4aed41d31e3019c2d549f28dc25518838d1bc"
+    },
+    {
+      "path": "Source Code/src32/object.h",
+      "bytes": 549,
+      "sha256": "7f5d0ba042ce0a97c2716eeb91422d95881bdce093b5748db9959f86504726e9"
+    },
+    {
+      "path": "Source Code/src32/process.c",
+      "bytes": 15030,
+      "sha256": "0f0af5e98a4e38a885f994c40bf8a82a43702aad2faad9b87b904bb394ecb9ea"
+    },
+    {
+      "path": "Source Code/src32/process.h",
+      "bytes": 502,
+      "sha256": "006668c15066f54a1e990df16ceb687b16aad18bcfc5da0b89f79e15b51e5907"
+    },
+    {
+      "path": "Source Code/src32/settings.c",
+      "bytes": 8274,
+      "sha256": "57f119487bdc1fc930c44ab05f58b7d1dc719bd3027c3ffa8fa60dea0d4a165a"
+    },
+    {
+      "path": "Source Code/src32/settings.h",
+      "bytes": 426,
+      "sha256": "66a1e2c37716884ac264c2e6d3dbf649f3ea8f064d5120ae0b7a818bd60b9687"
+    },
+    {
+      "path": "Source Code/src32/shell.c",
+      "bytes": 35730,
+      "sha256": "2aed6d2a3e263904b4fec425bf72a3500cd21615c53e48805c4af19776fa704f"
+    },
+    {
+      "path": "Source Code/src32/storage.c",
+      "bytes": 8190,
+      "sha256": "9a51a741d16f4d74f29fb29c9070a130bc87f5e77b952a120611e11dbcf844fe"
+    },
+    {
+      "path": "Source Code/src32/storage.h",
+      "bytes": 335,
+      "sha256": "055ec7c4a77bcca4715d9a46fc25afec7b9e87cbbe820589329e1068c846cf23"
+    },
+    {
+      "path": "Source Code/src32/types.h",
+      "bytes": 216,
+      "sha256": "f4c58a6441195e625c9141ad6af13fcbdf17c997d33666135da41af51613e9da"
+    },
+    {
+      "path": "Source Code/src32/vfs.c",
+      "bytes": 11169,
+      "sha256": "8a0c56af128dd7d1e88891bc21a5fec9c7c354c55963e71a16000166a7f957a6"
+    },
+    {
+      "path": "Source Code/src32/vfs.h",
+      "bytes": 779,
+      "sha256": "7d4a1adf80f9a41a0555593aa7d415a0e0f7da793aa31c0a20375a9ff0712ac4"
+    },
+    {
+      "path": "Source Code/tools/build-locale.py",
+      "bytes": 15158,
+      "sha256": "f1a0a367a6b6d87b6b5202736ca3616aeff6573e64c82153eb406645fb62391d"
+    },
+    {
+      "path": "Source Code/tools/build-ui-assets.py",
+      "bytes": 8388,
+      "sha256": "74f63924a1b0d21102f55b69f6f86834fdeeee8ff2763bcbdb002bf4c91dc524"
+    },
+    {
+      "path": "Source Code/tools/build-user.js",
+      "bytes": 3832,
+      "sha256": "9b0fa790120f9cba9de4a2a916deb8be15881e5c862de00ff2ae43f5971a49b7"
+    },
+    {
+      "path": "Source Code/tools/fonts/platinum/OFL.txt",
+      "bytes": 4556,
+      "sha256": "132de6f93e9b2d469eac93903be3388ce8599ef1a9911e3d09811a4c30fb6221"
+    },
+    {
+      "path": "Source Code/tools/fonts/platinum/UPSTREAM-README.md",
+      "bytes": 14821,
+      "sha256": "aeb13da7b2b121c7a3db7300ab71029982c56c37fccb936fb282f611766d2330"
+    },
+    {
+      "path": "Source Code/tools/fonts/platinum/chicago12.rs",
+      "bytes": 11437,
+      "sha256": "267441f4309c7b157e4e273e376d56190340930b984cd1a3f8fd37e1f3c340bc"
+    },
+    {
+      "path": "Source Code/tools/fonts/platinum/geneva12.rs",
+      "bytes": 11315,
+      "sha256": "3e7c6d59b467b4680148e79417ce9a4b2a2d5ca44bb5fcf3e64bc6f6b582adab"
+    },
+    {
+      "path": "Source Code/tools/fonts/platinum/geneva18.rs",
+      "bytes": 15734,
+      "sha256": "49dde3f7dd9078efbd748a60f7e89bbe4ff9f6cc4924fe24de35d1bffbd0abb8"
+    },
+    {
+      "path": "Source Code/tools/fonts/platinum/monaco12.rs",
+      "bytes": 10468,
+      "sha256": "c06dd9ac6a0398107178e9ab9ecb5544058df1bbc6b52464fdfd6dbefcb54ea7"
+    },
+    {
+      "path": "Source Code/tools/fonts/platinum/sources.json",
+      "bytes": 1440,
+      "sha256": "84a7583fd5025f3cb98ab59b6c720c7b42adbf1214b2ff0f06e242e3ba913bd7"
+    },
+    {
+      "path": "Source Code/tools/fonts/unifont/COPYING",
+      "bytes": 48615,
+      "sha256": "5a65797606332f2f63057fd81ea0ff35f74043583515bf900ee9b42efa8176a6"
+    },
+    {
+      "path": "Source Code/tools/fonts/unifont/OFL-1.1.txt",
+      "bytes": 4340,
+      "sha256": "869692af094c57fb7258c57fe26820c759319603321d0ffeb278de3651763ded"
+    },
+    {
+      "path": "Source Code/tools/fonts/unifont/README",
+      "bytes": 29677,
+      "sha256": "0c35716b811d92631b60c92c1ab6a650e5da486f82896c1e87aaef931eb9336a"
+    },
+    {
+      "path": "Source Code/tools/fonts/unifont/sources.json",
+      "bytes": 332,
+      "sha256": "5a17155e82aec6e187122031989bcf28e6392c6ff91ccaf81d82995dc5073d15"
+    },
+    {
+      "path": "Source Code/tools/fonts/unifont/unifont-16.0.04.hex.gz",
+      "bytes": 936499,
+      "sha256": "f9c8c7802453f47be02677176aeac2342ee96d354fad7a26cedcce48e68e1d9f"
+    },
+    {
+      "path": "Source Code/tools/host-tools.js",
+      "bytes": 1059,
+      "sha256": "9704417bdbdffacf5e6fcf88e8b055091799a4fae8b48972117f0d604ef1546c"
+    },
+    {
+      "path": "Source Code/tools/nasm-3.02/LICENSE",
+      "bytes": 1585,
+      "sha256": "222b65a5fab7ba8ade645970ad21bd5c2e2e6533897d59d1ca0914681c1f9da6"
+    },
+    {
+      "path": "Source Code/tools/nasm-3.02/nasm.exe",
+      "bytes": 1969664,
+      "sha256": "04ec2385879f7e1c45dbe76c4020970555de48eeb97c23f59620ede061328f51"
+    },
+    {
+      "path": "Source Code/tools/nasm-3.02/ndisasm.exe",
+      "bytes": 1013248,
+      "sha256": "81f1de14f5b2b4c443cc148897b6102fff67202789efca82c5b6e1b8b9c81e17"
+    },
+    {
+      "path": "Source Code/tools/package-release.js",
+      "bytes": 5535,
+      "sha256": "203dcfae7b0116f1daa780883e24229c385553e0b51c88b37c3a289c33f59607"
+    },
+    {
+      "path": "Source Code/tools/package.js",
+      "bytes": 2086,
+      "sha256": "b7cc30c57d85de3ddf3e4fd676053e18ac57f38401f5f592da8b8938c90374d4"
+    },
+    {
+      "path": "Source Code/tools/paths.js",
+      "bytes": 320,
+      "sha256": "f5575ecebbd81b4452aa7657ca2e8c843e6868a0345fda0cfaa2df8fee88ae5d"
+    },
+    {
+      "path": "Source Code/tools/pinyin/COMMIT.txt",
+      "bytes": 42,
+      "sha256": "e34df77149acd1a026bceadaaa923a0dbd4683b9f653fbc90625ca134fe0c001"
+    },
+    {
+      "path": "Source Code/tools/pinyin/LICENSE.txt",
+      "bytes": 1076,
+      "sha256": "9c048697be2502a16e8bcb282d5d465a07295b2def0ffb05a269c5d39dbe1586"
+    },
+    {
+      "path": "Source Code/tools/pinyin/pinyin.txt",
+      "bytes": 985318,
+      "sha256": "621f8ca9eff8519f47e2b17b564fd318161e13bca07eea8c8e04993cd5d3b52e"
+    },
+    {
+      "path": "Source Code/tools/pinyin/sources.json",
+      "bytes": 295,
+      "sha256": "96dff15a007c43b65ac88b3d063517e55ff12b041bb2fb849f13c6a4b1e4c338"
+    },
+    {
+      "path": "Source Code/tools/prepare-release-disk.js",
+      "bytes": 5545,
+      "sha256": "9afa9019a2cc0efd28fb7095b53b5387fb6e8f545adf1853e32e6d1608665ccf"
+    },
+    {
+      "path": "Source Code/tools/qmp.js",
+      "bytes": 2004,
+      "sha256": "7d2cbc66efeb22d6d216da81b19fa863a1d56c828e55815d0cd2656b98ca43c6"
+    },
+    {
+      "path": "Source Code/tools/release-ide.js",
+      "bytes": 4501,
+      "sha256": "7ad940474302e01a8b2859fbf76b85206494b9ad3e547014b9bb8a3acdf1dee3"
+    },
+    {
+      "path": "Source Code/tools/release-live.js",
+      "bytes": 3843,
+      "sha256": "d73f90908c4e32ca5e1d7aed4128718defb4fa77889852896806a51d0656bee6"
+    },
+    {
+      "path": "Source Code/tools/run-selftest.js",
+      "bytes": 432,
+      "sha256": "04bcf958cbdc67df8477b5a4732d5cb8dd4bf18269dac3b7e04112bcdc5eebc0"
+    },
+    {
+      "path": "Source Code/tools/test-chinese-files.js",
+      "bytes": 9636,
+      "sha256": "e0272a5d5e5b386314d3726561954b8db7aae509c7580f4b14d5691e57a976bf"
+    },
+    {
+      "path": "Source Code/tools/test-compatibility.js",
+      "bytes": 503,
+      "sha256": "2c958c2ae074ce5ab1c6d8d9698b6eb757c478e032fe3374cc6fa2755d5e9cde"
+    },
+    {
+      "path": "Source Code/tools/test-desktop.js",
+      "bytes": 9732,
+      "sha256": "d82baf1e67b9f99e192611acda114073ecd45f9442c91a128f1f7c624c20c43f"
+    },
+    {
+      "path": "Source Code/tools/test-ide-input.js",
+      "bytes": 6096,
+      "sha256": "d29dc129fbb0c6cf2f9cf2859ee594c62026fcfee73ec67187cd5c59f26f9e80"
+    },
+    {
+      "path": "Source Code/tools/test-ide-panels.js",
+      "bytes": 3588,
+      "sha256": "c18757631f9cb7d48a35e0736f9c699adf540811ebe10e65c2655ae126a1b57b"
+    },
+    {
+      "path": "Source Code/tools/test-ide.js",
+      "bytes": 9162,
+      "sha256": "57815b980dbde5329c5261be40417fab83f337e2809607537a860e92822298a9"
+    },
+    {
+      "path": "Source Code/tools/test-install.js",
+      "bytes": 5801,
+      "sha256": "75027603571c70d2c33d6c94f5d90e8e4f122030434a59f582b6c2a083d7fc7d"
+    },
+    {
+      "path": "Source Code/tools/test-iso.js",
+      "bytes": 1314,
+      "sha256": "2743743df180716246616e81378dcccbc9f4350dd9e934a5040579b97141aff1"
+    },
+    {
+      "path": "Source Code/tools/test-keyboard.c",
+      "bytes": 1933,
+      "sha256": "a35b25f709ab64464669bb8563e4294da4f75dca3a7f8084031d4369462dbe46"
+    },
+    {
+      "path": "Source Code/tools/test-keyboard.js",
+      "bytes": 498,
+      "sha256": "0f54dbf3cc6551451998c55034a32d65b90248bd9239bfb4630694d3f2144dbf"
+    },
+    {
+      "path": "Source Code/tools/test-launcher-guest.js",
+      "bytes": 704,
+      "sha256": "37913f3d32e85cdaf2b5951c36d520de7a1789e83a3867b218377e518ccd661c"
+    },
+    {
+      "path": "Source Code/tools/test-launcher.ps1",
+      "bytes": 4254,
+      "sha256": "fd987c1d0d5ce55d0512862c8dd87cfc85a360c11e95908849cd3af4cce3f83b"
+    },
+    {
+      "path": "Source Code/tools/test-native-apps.js",
+      "bytes": 5160,
+      "sha256": "6b8a44e403afb59d0cc0d26ccdc949a3203e1d045474851836a34b5cb3083772"
+    },
+    {
+      "path": "Source Code/tools/test-network.js",
+      "bytes": 923,
+      "sha256": "b83c3aa9bd2c70b9b720059f6b143493cc01395272bc1a95f69befeb3c7ea3b5"
+    },
+    {
+      "path": "Source Code/tools/test-packages.js",
+      "bytes": 3594,
+      "sha256": "fda2dc341e1c08b42879a49b2aad850e0d8fc9656f8458b80f0ec8872782442b"
+    },
+    {
+      "path": "Source Code/tools/test-performance.js",
+      "bytes": 2024,
+      "sha256": "b758d2e31c692543ed72dd6f599bd950e096f2c9b102a116aa1fc22419cd86df"
+    },
+    {
+      "path": "Source Code/tools/test-public-guest.js",
+      "bytes": 2317,
+      "sha256": "57418248fce5cf076985655fb06f1f13898db10201fb4770f73c9a869bec97fe"
+    },
+    {
+      "path": "Source Code/tools/test-public-launcher.ps1",
+      "bytes": 4674,
+      "sha256": "8dc815474ec678a737412b57fb73ef1e66b389a127cf6f433a67a6242971b2bc"
+    },
+    {
+      "path": "Source Code/tools/test-recovery.js",
+      "bytes": 1514,
+      "sha256": "823dd86fcaa89a525b2d832131e9f9d2afbf785da207a4352b54db64c2c7ce78"
+    },
+    {
+      "path": "Source Code/tools/test-release-project.js",
+      "bytes": 3450,
+      "sha256": "9c25bbc0e3103efcf2a15e4a018ebee919a16d096c10de0f14afa28c94fc2ffa"
+    },
+    {
+      "path": "Source Code/tools/test-settings.js",
+      "bytes": 5186,
+      "sha256": "4cce682e5e6cac7693820d569b2b3c640f431ed740767ad6ac9a3588a76ef179"
+    },
+    {
+      "path": "Source Code/tools/test-setup-entry.js",
+      "bytes": 2016,
+      "sha256": "b62a2b784760d0bf727454cade582eaa55c9a264e0c61cce451921fa23c29cc5"
+    },
+    {
+      "path": "Source Code/tools/test-setup-entry.ps1",
+      "bytes": 3029,
+      "sha256": "711a5da1718d6656bd606e13eee5dc4df6faac9baf8fa2328e4573b62b38f14f"
+    },
+    {
+      "path": "Source Code/tools/test-typography.js",
+      "bytes": 1479,
+      "sha256": "51e657c3278df15ea3e0d69b9b4289a025ac036e344727d56356a617137d1c83"
+    },
+    {
+      "path": "Source Code/tools/test-upgrade.js",
+      "bytes": 2127,
+      "sha256": "a4e93bd92d3cde0454e016a8b40804a16d60a7eb641caeba18a600a5839b429a"
+    },
+    {
+      "path": "Source Code/tools/test-usermode.js",
+      "bytes": 2213,
+      "sha256": "1b4995a5630e217538dea5780df904eb130c48dbb41d743498c53a873fee0c60"
+    },
+    {
+      "path": "Source Code/tools/test-volume.js",
+      "bytes": 1256,
+      "sha256": "af33297a640eb66472313b9c479d5869bac90a6bbd84b2448bfe634dc5e3736c"
+    },
+    {
+      "path": "Source Code/tools/update-installed.js",
+      "bytes": 5764,
+      "sha256": "06f612cd0886cfe6a69da0d5851ad31e9bfa520e1ae6be9a5bbf5055274bc050"
+    },
+    {
+      "path": "Source Code/tools/vm-test.js",
+      "bytes": 6374,
+      "sha256": "2c7d301217774ccd0457cbe2404b5feb4eb067c10bd9a932b8d0fa3d3b319014"
+    },
+    {
+      "path": "Source Code/user/apps.c",
+      "bytes": 2473,
+      "sha256": "1199b2550f76f3cae90020bb91a1b35f4c6b0b69815d749f410b7c68e5a91bbd"
+    },
+    {
+      "path": "Source Code/user/basic.c",
+      "bytes": 19091,
+      "sha256": "5d51605220425b70cf109a6f9699b9493e1f0156f9c0dd0c5f256926fd3a2ae1"
+    },
+    {
+      "path": "Source Code/user/basic.h",
+      "bytes": 1153,
+      "sha256": "d66a8d86be20284d881f825c80c15983562c333f441c3df4c7cd0ba64ae13793"
+    },
+    {
+      "path": "Source Code/user/basic_image.h",
+      "bytes": 278,
+      "sha256": "3924125b61d305c57ff692a4e8d26d04b161d0addfca805698a9c6887d2bcfcf"
+    },
+    {
+      "path": "Source Code/user/basic_tests.c",
+      "bytes": 1431,
+      "sha256": "06ceb5e00635b3c33b8fd158a76672a5fdba99291bbc05346440f1c2ab4a2603"
+    },
+    {
+      "path": "Source Code/user/basicrun.c",
+      "bytes": 2321,
+      "sha256": "f622e20e36a84b96cb8b097b09019ba0331e5bee3a1798ab821ac63a9a88008e"
+    },
+    {
+      "path": "Source Code/user/editor.c",
+      "bytes": 5465,
+      "sha256": "f75a61eabb519e2f89ead5e5fbc16e3315af23e69d2a2445f6f45878625ab87f"
+    },
+    {
+      "path": "Source Code/user/entry.asm",
+      "bytes": 157,
+      "sha256": "2bbf35c99378442e8d8ffc3f0a93fbef28414df12035e99a72ac71e69e2ecdce"
+    },
+    {
+      "path": "Source Code/user/files.c",
+      "bytes": 5853,
+      "sha256": "8421735f58c6f5821dfdab543eca3eed2c0f6e512121c4bfea5bfe2ea736638b"
+    },
+    {
+      "path": "Source Code/user/forms.c",
+      "bytes": 8751,
+      "sha256": "7425ae7760b791770442582999e50fa933acb0bf42b0b394f48137aa5ac34029"
+    },
+    {
+      "path": "Source Code/user/forms.h",
+      "bytes": 885,
+      "sha256": "1ab9368804d3328ddbbb619d58aa023330bb26b8c0273d51c02a7f464c02d7d2"
+    },
+    {
+      "path": "Source Code/user/hello.c",
+      "bytes": 547,
+      "sha256": "cf7dd3bdaf56c80397b9754e00170f10699ad33e51836530c5c02588f303ff1e"
+    },
+    {
+      "path": "Source Code/user/ide.c",
+      "bytes": 39625,
+      "sha256": "5b7d2d71edf5e90ffd31c2cde9374199cd1253b314847506d6ef9a2a72ab6c59"
+    },
+    {
+      "path": "Source Code/user/install_service.c",
+      "bytes": 14993,
+      "sha256": "1243727ce35d86daab54307c061e2facee208448107c47acc34c02fbb89855eb"
+    },
+    {
+      "path": "Source Code/user/installer_tests.c",
+      "bytes": 3321,
+      "sha256": "4ce9d335131ab25899afd3ed2ac4e3bf060d7a6235e84f53ec027f114205974f"
+    },
+    {
+      "path": "Source Code/user/linker.ld",
+      "bytes": 407,
+      "sha256": "8c3312f23efcfcd84399a0283f8b4319b00053571872b60a2bd809f6c964f2b3"
+    },
+    {
+      "path": "Source Code/user/netlib.c",
+      "bytes": 2642,
+      "sha256": "e90e2f86c5a0d0cfa2dc2877abde13bca58c7d369ffd408c4bb45a32d9ea8a99"
+    },
+    {
+      "path": "Source Code/user/netlib.h",
+      "bytes": 149,
+      "sha256": "f3b0af0c9c66cc040ca528c0f7c762ccc65d07f13c8fcd9d9b893421d8cae3cd"
+    },
+    {
+      "path": "Source Code/user/nettest.c",
+      "bytes": 4344,
+      "sha256": "c3368e4f4383a94ce4790973b3342dc0746ca2e2460c9c2faca4b7e5d9704443"
+    },
+    {
+      "path": "Source Code/user/package.h",
+      "bytes": 1260,
+      "sha256": "9431f0840beb90202367666455d247c92f395f210d11361368ecf8f63b6cadaa"
+    },
+    {
+      "path": "Source Code/user/probe.c",
+      "bytes": 2713,
+      "sha256": "4c1d85febdb565b27245bd70868c029059442ee608a22bfd62ccbb2f783cf121"
+    },
+    {
+      "path": "Source Code/user/runtime.c",
+      "bytes": 3223,
+      "sha256": "5278e2cb047e86e4ba55dd80196d447567ceeafdb2d9b7273dad22afbb9f71fc"
+    },
+    {
+      "path": "Source Code/user/sdk.h",
+      "bytes": 2484,
+      "sha256": "a59044b3f29f9bd3b967fc100a1d47c1811c29ba8c152e742e11a666ec9cfd9d"
+    },
+    {
+      "path": "Source Code/user/setup.c",
+      "bytes": 6767,
+      "sha256": "e8149eea457e688d14810c6160d7974994d030d3de5b343332800d0e035523a6"
+    },
+    {
+      "path": "Source Code/user/socket.h",
+      "bytes": 1408,
+      "sha256": "0a81281b9f321d44a01e670152499a8399c01bf99c6bfb4c5f220269e22c3467"
+    },
+    {
+      "path": "Source Code/user/tasks.c",
+      "bytes": 1449,
+      "sha256": "92a267f0a987352ec2a770a1198e9f9a4a60d5cd1fbb1fc96c83f039bfc453e9"
+    },
+    {
+      "path": "Source Code/verify-desktop.js",
+      "bytes": 1345,
+      "sha256": "e14710d6199197d2282be51f10a281c682cfee9b8675d13b09bd656a73bf5d53"
+    },
+    {
+      "path": "Source Code/verify-system.js",
+      "bytes": 1889,
+      "sha256": "bebc261887a1f3227f3be771b37792b0c9f4cc3b1490abef192e1f6ee89eac6a"
+    }
+  ]
+}

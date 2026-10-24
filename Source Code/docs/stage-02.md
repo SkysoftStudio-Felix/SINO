@@ -1,0 +1,7 @@
+# Native software installation stage
+
+Completed: separately linked ring-3 software setup, six-page GUI, original SXP1 manifest and host packager, user-mode installation service API, persistent CRC undo journal, automatic recovery, serialized installation, optional components, config values, desktop/menu shortcuts, association registration, uninstall records, cached repair, same-version repair/upgrade and downgrade refusal, failure rollback, native application manager and Hello sample. VFS expanded from 64 to 128 nodes; legacy QA table bounds updated. Selftest reuses an idle window instead of reserving a second 16 KiB Window in BSS.
+
+Validated before commit: current build and ISO; CPL3 regression; guest installer fault injection and rollback; actual six-page wizard/screenshots; native application launched from manager; persisted metadata; interrupted journal recovered after reboot. Full existing GUI regression is required as part of the commit gate. Data/system.img and legacy data.img are never used by test VMs.
+
+Unfinished: migrating built-in applications to user mode; a resident installation IPC daemon; executing services/startup tasks; signed packages; full dependency resolver; catalog pagination; permission approval UI; replacing the legacy settings file with the new config store. Unsupported package features fail validation. These are not represented by successful no-op APIs.

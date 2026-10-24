@@ -1,0 +1,25 @@
+SINO32 KERNEL / SINO 0.10
+
+BIOS/MBR boot, 321 reserved FAT12 sectors, custom 32-bit protected-mode entry,
+GDT/TSS, IDT, PIC, PIT 100 Hz, PS/2 and optional QEMU absolute pointer.
+The entire 1.44 MB boot filesystem is loaded at physical 2 MB.
+
+Physical memory: kernel stack 0x80000, page directory 0x90000, kernel BSS
+at 1 MB below 0x1d0000; identity page tables 0x1e0000 and video tables 0x1f0000.
+Assets 7-8 MB; GUI backbuffer 8-14 MB; copy scratch 15 MB; desktop cache
+16-22 MB; front cache 22-28 MB; eight window caches 28-52 MB.
+The allocator manages available pages from 52 to 64 MB.
+
+Native SNX1 programs run in ring 3 with private page directories, supervisor
+kernel mappings, read-only text and guarded per-thread stacks. INT 80 checks
+user pointers, object types, handle cookies and rights. PIT preempts user code.
+8 processes, 4 threads each; 192 KiB image/data; 16 KiB user stack per thread.
+User faults terminate that process. Remaining legacy built-ins run in ring 0.
+
+SFS persists home files with two CRC-checked snapshot banks and commit-last
+headers. VFS has 128 nodes and 64 KiB files. Native installation uses a separate
+user-mode GUI and service library with persistent undo and recovery.
+
+Loopback IPv4/ICMP/UDP/bounded TCP and native DNS/HTTP local tests are present.
+No external NIC, Ethernet/ARP, DHCP, audio, Win32/PE, Linux or DOS binary ABI.
+This is a development OS; full application migration and hardening are pending.

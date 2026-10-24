@@ -1,0 +1,9 @@
+const {execFileSync}=require('node:child_process'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+const hash=file=>crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
+const isoSha256=hash(require('./tools/paths').iso),record=path.join(__dirname,'build32/system-verification.json');
+const common=['tools/vm-test.js','tools/qmp.js','tools/test-volume.js','build32/kernel-normal.exe'].map(f=>hash(path.join(__dirname,f))).join(':');
+let prior={results:[]};if(process.argv.includes('--resume')&&fs.existsSync(record)){prior=JSON.parse(fs.readFileSync(record));if(prior.isoSha256!==isoSha256)prior={results:[]};}
+const results=[];const tests=['test-keyboard.js','test-iso.js','run-selftest.js','test-desktop.js','test-recovery.js','test-performance.js','test-compatibility.js','test-typography.js','test-chinese-files.js','test-settings.js','test-install.js','test-usermode.js','test-packages.js','test-network.js','test-ide.js','test-native-apps.js','test-ide-input.js','test-ide-panels.js'];
+function save(){fs.writeFileSync(record,JSON.stringify({version:'0.10',date:new Date().toISOString(),isoSha256,results},null,2));}
+for(const name of tests){const file='tools/'+name,signature=common+':'+hash(path.join(__dirname,file)),cached=prior.results.find(r=>r.test===file&&r.result==='PASS'&&r.signature===signature);if(cached){results.push({...cached,reused:true});console.log('REUSED PASS identical ISO/test: '+file);save();continue;}const started=Date.now();try{execFileSync(process.execPath,[path.join(__dirname,file)],{stdio:'inherit',timeout:180000});results.push({test:file,result:'PASS',signature,milliseconds:Date.now()-started});save();}catch(error){results.push({test:file,result:'FAIL',signature,milliseconds:Date.now()-started});save();throw error;}}
+console.log('PASS: SINO 0.10 complete current regression gate (18 suites).');

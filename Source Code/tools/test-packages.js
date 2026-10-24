@@ -1,0 +1,17 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
+const {VM,sleep}=require('./vm-test'),{volume}=require('./test-volume');
+(async()=>{let vm=new VM('packages-qa');const results=[];try{
+ await vm.start({fresh:true});await vm.key('f2');await vm.type('run /boot/instest.snx\n');
+ for(let i=0;i<150&&!vm.log().includes('INSTALL SELFTEST');i++)await sleep(50);
+ assert(vm.log().includes('INSTALL SELFTEST PASS'),vm.log());results.push('Guest package validation, injected failure rollback, config/shortcut rollback, install, repair and uninstall');
+ await vm.key('f8');await sleep(150);let w=(await vm.state()).windows.find(w=>w.app===9);assert(w,'separate installer window');
+ async function next(){await vm.click(w.x+495,w.y+405);await sleep(120);}
+ await vm.shot('01-welcome');await next();await vm.shot('02-license');await next();await vm.shot('03-path');await next();await vm.shot('04-components');const committed=(vm.log().match(/INSTALL: Transaction committed/g)||[]).length;await next();
+ for(let i=0;i<150&&(vm.log().match(/INSTALL: Transaction committed/g)||[]).length<=committed;i++)await sleep(50);
+ await sleep(500);await vm.shot('05-installed');assert(!vm.log().includes('KERNEL PANIC'));await next();for(let i=0;i<50&&(await vm.state()).windows.some(w=>w.title.includes('软件安装程序'));i++)await sleep(30);assert(!(await vm.state()).windows.some(w=>w.title.includes('软件安装程序')),'installer acknowledged completion');await vm.key('f9');await sleep(150);w=(await vm.state()).windows.find(w=>w.title.includes('应用管理器'));assert(w);await vm.shot('06-app-manager');await vm.click(w.x+65,w.y+418);for(let i=0;i<50&&!(await vm.state()).windows.some(w=>w.title.includes('Hello /'));i++)await sleep(30);let wins=(await vm.state()).windows;assert(wins.some(w=>w.title.includes('Hello /')),'installed program launched from manager');results.push('Six-page GUI wizard, application manager and installed ring-3 application');
+ for(const win of wins.filter(w=>w.app===9))await vm.click(win.x+14,win.y+15);await vm.key('f2');await vm.type('sync\n');await sleep(250);await vm.stop();
+ let data=volume(path.join(vm.run,'data.img')).current.records;assert(data.has('/home/user/Desktop/hello.lnk'));assert(data.has('/home/user/.sino/apps/hello.rec'));assert(data.has('/home/user/.sino/menu/hello.lnk'));assert(data.has('/home/user/.sino/assoc/hello'));assert(!data.has('/home/user/.sino/rollback/journal'));results.push('Installed files, configuration, shortcut, association and uninstall record committed to disk');
+ await vm.start();await vm.key('f2');await vm.type('run /boot/instest.snx crash\n');for(let i=0;i<100&&!vm.log().includes('INSTALL CRASH JOURNAL READY');i++)await sleep(50);assert(vm.log().includes('INSTALL CRASH JOURNAL READY'),vm.log());await vm.q.call('stop');await vm.stop();
+ await vm.start();for(let i=0;i<120&&!vm.log().includes('INSTALL: Transaction rolled back');i++)await sleep(50);assert(vm.log().includes('INSTALL: Transaction rolled back'),vm.log());await vm.key('f2');await vm.type('run /boot/instest.snx recover\n');for(let i=0;i<100&&!vm.log().includes('INSTALL CRASH RECOVERY PASS');i++)await sleep(50);assert(vm.log().includes('INSTALL CRASH RECOVERY PASS'),vm.log());results.push('Persisted interrupted journal recovered automatically after VM reboot');
+ fs.writeFileSync(path.join(vm.run,'report.json'),JSON.stringify({results,log:vm.log()},null,2));console.log(results.map(r=>'PASS '+r).join('\n'));
+ }finally{await vm.stop();}})().catch(e=>{console.error(e);process.exitCode=1;});

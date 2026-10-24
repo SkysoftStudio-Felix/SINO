@@ -1,0 +1,1 @@
+{"id":"editor","name":"SINO 原生文本编辑器","version":"0.1.0","entry":"editor.snx","license":"MIT - Original SINO application.","shortcut":"editor","files":[{"path":"editor.snx","source":"../build32/user/editor.snx"}]}

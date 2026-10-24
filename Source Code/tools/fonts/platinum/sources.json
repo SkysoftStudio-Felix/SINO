@@ -1,0 +1,35 @@
+{
+  "tag": "v0.18.14",
+  "commit": "dd97264f921b34d9f5a0030b5c46c25589b31d6f",
+  "faces": [
+    "Jarrah",
+    "Kurrajong",
+    "Mallee"
+  ],
+  "files": [
+    {
+      "file": "chicago12.rs",
+      "url": "https://raw.githubusercontent.com/benletchford/systemless/dd97264f921b34d9f5a0030b5c46c25589b31d6f/src/quickdraw/fonts/pixel_font/chicago12.rs",
+      "sha256": "267441f4309c7b157e4e273e376d56190340930b984cd1a3f8fd37e1f3c340bc",
+      "license": "OFL-1.1"
+    },
+    {
+      "file": "geneva12.rs",
+      "url": "https://raw.githubusercontent.com/benletchford/systemless/dd97264f921b34d9f5a0030b5c46c25589b31d6f/src/quickdraw/fonts/pixel_font/geneva12.rs",
+      "sha256": "3e7c6d59b467b4680148e79417ce9a4b2a2d5ca44bb5fcf3e64bc6f6b582adab",
+      "license": "OFL-1.1"
+    },
+    {
+      "file": "geneva18.rs",
+      "url": "https://raw.githubusercontent.com/benletchford/systemless/dd97264f921b34d9f5a0030b5c46c25589b31d6f/src/quickdraw/fonts/pixel_font/geneva18.rs",
+      "sha256": "49dde3f7dd9078efbd748a60f7e89bbe4ff9f6cc4924fe24de35d1bffbd0abb8",
+      "license": "OFL-1.1"
+    },
+    {
+      "file": "monaco12.rs",
+      "url": "https://raw.githubusercontent.com/benletchford/systemless/dd97264f921b34d9f5a0030b5c46c25589b31d6f/src/quickdraw/fonts/pixel_font/monaco12.rs",
+      "sha256": "c06dd9ac6a0398107178e9ab9ecb5544058df1bbc6b52464fdfd6dbefcb54ea7",
+      "license": "OFL-1.1"
+    }
+  ]
+}

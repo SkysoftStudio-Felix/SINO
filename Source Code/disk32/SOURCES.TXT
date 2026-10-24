@@ -1,0 +1,63 @@
+SINO 0.10 / source information
+
+The bootloader, 32-bit kernel, drivers, memory manager, FAT12 reader, VFS,
+ATA storage, shell, desktop and built-in apps were generated and written
+by the assistant for this project. Project code uses the repository MIT license.
+No FreeDOS, Linux, macOS, iPadOS or Codex application source was imported.
+This is not a FreeDOS or Linux kernel fork.
+
+Visual appearance follows the requested classic Mac OS 8.5 Platinum style.
+Window frames, icons, desktop pattern and cursor are drawn by project code.
+There are no copied Apple bitmap assets or Apple system components.
+
+THIRD-PARTY COMPONENTS
+  QEMU 11.1.0 Windows build: qemu.org -> qemu.weilnetz.de/w64
+  External emulator, GPLv2 and component-specific licenses.
+  SeaBIOS / standard VGA firmware supplied with QEMU, original licenses.
+  NASM 3.02, GCC / Binutils and Node.js are build/test tools.
+  Python / Pillow generate font atlases and procedural cursor resources.
+  Jarrah, Kurrajong and Mallee bitmap fonts: Ben Letchford, SIL OFL 1.1.
+  Font license: /boot/font_ofl.txt. Sources: systemless v0.18.14 font artwork.
+
+REFERENCES
+  Intel architecture manuals: GDT, IDT, interrupts, paging and exceptions.
+  QEMU public vmmouse / vmport source: device protocol verification only.
+  The reference files are not compiled or linked into SINO.
+  QMP documentation: host-side input, state inspection and actual screenshots.
+
+Kernel, storage and applications are custom project code; this does not claim
+that standard algorithms, protocols or common implementation patterns are novel.
+Third-party tools, firmware, references and fonts retain their own licenses.
+
+SINO SH is a custom command interpreter, not Bash. The current system has no
+Linux, macOS or traditional DOS binary compatibility. Legacy built-ins remain
+in ring 0; new SNX1 applications run in isolated ring-3 processes. This is a functional desktop prototype, not a production OS.
+
+Host source map, exact downloads and checksums: SOURCES.md in the project folder.
+
+CHINESE SUPPORT
+  GNU Unifont 16.0.04 CJK/punctuation bitmap subset: unifoundry.com.
+  Dual licensed upstream; SINO chooses SIL OFL 1.1.
+  /boot/cjk_ofl.txt includes upstream licensing and copyright notices.
+  Pinyin character readings: mozillazg/pinyin-data, MIT.
+  Pinned commit 9193766130af24d2ac54230be979b2e98ac66223.
+  /boot/pinyin.txt includes the MIT license and copyright.
+  UTF-8 handling, candidate UI and the small phrase list are custom SINO code.
+
+INSTALLATION AND SETTINGS (0.10)
+  Custom BIOS MBR, EDD partition boot, four-device ATA PIO driver.
+  Graphical partition planning, copying, sector readback, and boot commit.
+  Installed system boots with the CD removed; SINO FS lives in an MBR partition.
+  Custom display mode, scaling, contrast, timed rollback and preference storage.
+  The immutable UI translation table excludes RAM-backed user filenames/text.
+  No Windows installer code, logos or Microsoft graphical assets were imported.
+
+NATIVE PLATFORM (0.10)
+  src32/process.c, object.c, api.h: native CPL3 loader, scheduling and syscalls.
+  src32/net.c: original bounded loopback IPv4/ICMP/UDP/TCP implementation.
+  user/setup.c and install_service.c: separate native software installer.
+  user/apps.c, files.c, editor.c, tasks.c: independent user-mode applications.
+  user/basic.c, forms.c, ide.c, basicrun.c: original SysBASIC prototype.
+  Protocol/CPU references: Intel SDM; RFC 791, 792, 768, 9293 and 1035.
+  No Windows/VB6/FreeDOS/Linux source or proprietary resources were imported.
+  Full status, limitations and verification are in source/docs/REPORT.md.
