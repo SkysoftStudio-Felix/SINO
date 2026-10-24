@@ -17,6 +17,25 @@ For hobby OS developers, retro-desktop enthusiasts and BASIC experimenters:
 - **Package what you build:** output a native `.snx` executable or an `.sxp` package for the independent installer.
 - **Study the internals:** C/x86 assembly, protected mode, Ring 3 applications, system calls and a loopback network stack.
 
+## What makes SINO interesting?
+
+SINO brings a desktop and a small application-development workflow into the same experimental operating system. You can explore files, open the visual designer, write BASIC event handlers, preview your program, and choose between a native executable and an installable package. The aim is to make operating-system internals and application development approachable in one inspectable C/assembly codebase.
+
+- **Retro desktop, bilingual interaction:** a classic windowed environment with Chinese and English interfaces and Pinyin input.
+- **Visual application development:** SysBASIC combines a form designer, control properties and event code; projects use text-based `.prj`, `.frm` and `.bas` files.
+- **Native software distribution:** `.snx` executables and `.sxp` packages connect the IDE, independent installation wizard and application manager.
+- **An OS-development learning project:** explore the boot path, protected-mode kernel, user-mode API, installation transactions and experimental networking through the included source and documentation.
+
+### A first visit in five minutes
+
+1. Download and extract a release ZIP, install QEMU, and start the supplied launcher.
+2. Explore the desktop and switch the interface language in System Settings.
+3. Press **F11** to open SysBASIC and load `/home/user/Projects/First.prj`.
+4. Run the example, then inspect its controls, properties and event code.
+5. Try the executable/package build choices; use **F8** for the installer and **F9** for application management.
+
+For implementation details, start with the [architecture](<Source Code/docs/architecture.md>), [application-development guide](<Source Code/docs/app-dev-guide.md>) and [SysBASIC reference](<Source Code/docs/ide.md>). The [scope](#scope) below distinguishes the working preview from longer-term goals.
+
 ## Download and run
 
 Download either the **Chinese** or **English** ZIP from [Releases](https://github.com/SkysoftStudio-Felix/SINO/releases), and extract the entire archive. Both contain the same bilingual system build; folder names and documentation differ.
