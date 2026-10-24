@@ -6,7 +6,7 @@
 
 [English](README.md) · [下载最终版](https://github.com/SkysoftStudio-Felix/SINO-OS/releases) · [截图](#截图) · [参与开发](CONTRIBUTING.md)
 
-SINO OS 是用 C 和汇编编写的 32 位 x86 操作系统原型，包含图形桌面、中文与拼音输入、原生用户态应用、事务式软件安装器及 SysBASIC 可视化编程环境。项目实现由 AI 辅助开发，具体代码来源及第三方组件见 [来源说明](<Source Code/SOURCES.md>)。
+SINO OS 是用 C 和汇编编写的 32 位 x86 操作系统原型，包含图形桌面、中文与拼音输入、原生用户态应用、事务式软件安装器及 SysBASIC 可视化编程环境。本项目使用 GPT-6，经过上百轮对话迭代生成与完善，具体代码来源及第三方组件见 [来源说明](<Source Code/SOURCES.md>)。
 
 ![SINO 在 QEMU 中运行的桌面与文本编辑器](<Documentation/Screenshots/Desktop and Editor.png>)
 

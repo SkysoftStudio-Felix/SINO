@@ -6,7 +6,7 @@
 
 [中文说明](README.zh-CN.md) · [Downloads](https://github.com/SkysoftStudio-Felix/SINO-OS/releases) · [Screenshots](#screenshots) · [Contributing](CONTRIBUTING.md)
 
-SINO OS is a 32-bit x86 operating-system prototype written in C and assembly, with a graphical desktop, Chinese/Pinyin input, native user-mode applications, a transactional software installer, and the SysBASIC visual programming environment. The implementation was developed with AI assistance; [code and third-party provenance](<Source Code/SOURCES.md>) is documented.
+SINO OS is a 32-bit x86 operating-system prototype written in C and assembly, with a graphical desktop, Chinese/Pinyin input, native user-mode applications, a transactional software installer, and the SysBASIC visual programming environment. The project was generated and refined through more than 100 rounds of conversation and iteration with GPT-6; [code and third-party provenance](<Source Code/SOURCES.md>) is documented.
 
 ![SINO graphical desktop and text editor running in QEMU](<Documentation/Screenshots/Desktop and Editor.png>)
 
