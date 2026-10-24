@@ -1,12 +1,12 @@
-# SINO
+# SINO OS
 
-**SINO 0.10 / SysBASIC 0.3.0 开发预览版**
+**SINO OS 0.10 / SysBASIC 0.3.0 开发预览版**
 
 **一个可以在桌面上设计、运行和安装 BASIC 应用的小型 x86 操作系统。**
 
-[English](README.md) · [下载最终版](https://github.com/SkysoftStudio-Felix/SINO/releases) · [截图](#截图) · [参与开发](CONTRIBUTING.md)
+[English](README.md) · [下载最终版](https://github.com/SkysoftStudio-Felix/SINO-OS/releases) · [截图](#截图) · [参与开发](CONTRIBUTING.md)
 
-SINO 是用 C 和汇编编写的 32 位 x86 操作系统原型，包含图形桌面、中文与拼音输入、原生用户态应用、事务式软件安装器及 SysBASIC 可视化编程环境。项目实现由 AI 辅助开发，具体代码来源及第三方组件见 [来源说明](<Source Code/SOURCES.md>)。
+SINO OS 是用 C 和汇编编写的 32 位 x86 操作系统原型，包含图形桌面、中文与拼音输入、原生用户态应用、事务式软件安装器及 SysBASIC 可视化编程环境。项目实现由 AI 辅助开发，具体代码来源及第三方组件见 [来源说明](<Source Code/SOURCES.md>)。
 
 ![SINO 在 QEMU 中运行的桌面与文本编辑器](<Documentation/Screenshots/Desktop and Editor.png>)
 
@@ -17,7 +17,7 @@ SINO 是用 C 和汇编编写的 32 位 x86 操作系统原型，包含图形桌
 - **打包安装：**生成原生 `.snx` 程序，或交给独立安装器处理的 `.sxp` 软件包。
 - **研究实现：**查看 C/x86 汇编、保护模式、Ring 3 应用、系统调用与回环网络实现。
 
-## SINO 有什么值得体验？
+## SINO OS 有什么值得体验？
 
 SINO 把桌面环境和一套小型应用开发流程放进同一个实验性操作系统：浏览文件、打开可视化设计器、编写 BASIC 事件代码、预览程序，再选择生成可执行文件或安装包。希望通过可阅读、可修改的 C 与汇编代码，让操作系统原理和应用开发连接起来。
 
@@ -38,9 +38,9 @@ SINO 把桌面环境和一套小型应用开发流程放进同一个实验性操
 
 ## 下载和运行
 
-进入 [Releases 下载页](https://github.com/SkysoftStudio-Felix/SINO/releases)，下载 Chinese 或 English ZIP，并完整解压。两份 ZIP 使用相同的双语系统镜像，文件夹名称和说明文档语言不同。
+进入 [Releases 下载页](https://github.com/SkysoftStudio-Felix/SINO-OS/releases)，下载 Chinese 或 English ZIP，并完整解压。两份 ZIP 使用相同的双语系统镜像，文件夹名称和说明文档语言不同。
 
-[直接下载中文版](https://github.com/SkysoftStudio-Felix/SINO/releases/download/v0.10-sysbasic-0.3.0/SINO-0.10-SysBASIC-0.3.0-Chinese.zip) · [英文版](https://github.com/SkysoftStudio-Felix/SINO/releases/download/v0.10-sysbasic-0.3.0/SINO-0.10-SysBASIC-0.3.0-English.zip) · [独立 ISO](https://github.com/SkysoftStudio-Felix/SINO/releases/download/v0.10-sysbasic-0.3.0/SINO.iso)
+[直接下载中文版](https://github.com/SkysoftStudio-Felix/SINO-OS/releases/download/v0.10-sysbasic-0.3.0/SINO-0.10-SysBASIC-0.3.0-Chinese.zip) · [英文版](https://github.com/SkysoftStudio-Felix/SINO-OS/releases/download/v0.10-sysbasic-0.3.0/SINO-0.10-SysBASIC-0.3.0-English.zip) · [独立 ISO](https://github.com/SkysoftStudio-Felix/SINO-OS/releases/download/v0.10-sysbasic-0.3.0/SINO.iso)
 
 - 中文包：阅读 `介绍文件/开始使用.txt`，双击 `编译后的运行文件/启动SINO.cmd`。
 - 英文包：阅读 `Documentation/Getting Started.txt`，双击 `Compiled Runtime/Start SINO.cmd`。
@@ -85,7 +85,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\build-release.ps1
 
 ## 参与开发
 
-欢迎在 QEMU 中试用，通过 [Issues](https://github.com/SkysoftStudio-Felix/SINO/issues) 反馈可复现的问题，或帮助完善文档与测试。[参与指南](CONTRIBUTING.md) 提供了合适的起点；未完成功能以路线图为准。
+欢迎在 QEMU 中试用，通过 [Issues](https://github.com/SkysoftStudio-Felix/SINO-OS/issues) 反馈可复现的问题，或帮助完善文档与测试。[参与指南](CONTRIBUTING.md) 提供了合适的起点；未完成功能以路线图为准。
 
 ## 仓库与许可
 

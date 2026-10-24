@@ -15,7 +15,7 @@ SINO 是实验性操作系统与 BASIC 子集开发环境。建议先在 QEMU �
 
 ## Report a bug / 反馈问题
 
-Use [Issues](https://github.com/SkysoftStudio-Felix/SINO/issues). Include the release or commit, QEMU version, guest resolution/scaling, exact steps, expected/actual behavior, and a screenshot or relevant error log when available. Say whether you used the preinstalled disk or installed from ISO.
+Use [Issues](https://github.com/SkysoftStudio-Felix/SINO-OS/issues). Include the release or commit, QEMU version, guest resolution/scaling, exact steps, expected/actual behavior, and a screenshot or relevant error log when available. Say whether you used the preinstalled disk or installed from ISO.
 
 反馈时请注明版本、QEMU 版本、分辨率与缩放、操作步骤、预期与实际结果，以及截图或相关错误日志；说明使用预装盘还是 ISO 安装。
 

@@ -1,12 +1,12 @@
-# SINO
+# SINO OS
 
-**SINO 0.10 / SysBASIC 0.3.0 — development preview**
+**SINO OS 0.10 / SysBASIC 0.3.0 — development preview**
 
 **A small x86 desktop OS where you can design, run and install BASIC applications.**
 
-[中文说明](README.zh-CN.md) · [Downloads](https://github.com/SkysoftStudio-Felix/SINO/releases) · [Screenshots](#screenshots) · [Contributing](CONTRIBUTING.md)
+[中文说明](README.zh-CN.md) · [Downloads](https://github.com/SkysoftStudio-Felix/SINO-OS/releases) · [Screenshots](#screenshots) · [Contributing](CONTRIBUTING.md)
 
-SINO is a 32-bit x86 operating-system prototype written in C and assembly, with a graphical desktop, Chinese/Pinyin input, native user-mode applications, a transactional software installer, and the SysBASIC visual programming environment. The implementation was developed with AI assistance; [code and third-party provenance](<Source Code/SOURCES.md>) is documented.
+SINO OS is a 32-bit x86 operating-system prototype written in C and assembly, with a graphical desktop, Chinese/Pinyin input, native user-mode applications, a transactional software installer, and the SysBASIC visual programming environment. The implementation was developed with AI assistance; [code and third-party provenance](<Source Code/SOURCES.md>) is documented.
 
 ![SINO graphical desktop and text editor running in QEMU](<Documentation/Screenshots/Desktop and Editor.png>)
 
@@ -17,7 +17,7 @@ For hobby OS developers, retro-desktop enthusiasts and BASIC experimenters:
 - **Package what you build:** output a native `.snx` executable or an `.sxp` package for the independent installer.
 - **Study the internals:** C/x86 assembly, protected mode, Ring 3 applications, system calls and a loopback network stack.
 
-## What makes SINO interesting?
+## What makes SINO OS interesting?
 
 SINO brings a desktop and a small application-development workflow into the same experimental operating system. You can explore files, open the visual designer, write BASIC event handlers, preview your program, and choose between a native executable and an installable package. The aim is to make operating-system internals and application development approachable in one inspectable C/assembly codebase.
 
@@ -38,9 +38,9 @@ For implementation details, start with the [architecture](<Source Code/docs/arch
 
 ## Download and run
 
-Download either the **Chinese** or **English** ZIP from [Releases](https://github.com/SkysoftStudio-Felix/SINO/releases), and extract the entire archive. Both contain the same bilingual system build; folder names and documentation differ.
+Download either the **Chinese** or **English** ZIP from [Releases](https://github.com/SkysoftStudio-Felix/SINO-OS/releases), and extract the entire archive. Both contain the same bilingual system build; folder names and documentation differ.
 
-[Chinese ZIP](https://github.com/SkysoftStudio-Felix/SINO/releases/download/v0.10-sysbasic-0.3.0/SINO-0.10-SysBASIC-0.3.0-Chinese.zip) · [English ZIP](https://github.com/SkysoftStudio-Felix/SINO/releases/download/v0.10-sysbasic-0.3.0/SINO-0.10-SysBASIC-0.3.0-English.zip) · [Standalone ISO](https://github.com/SkysoftStudio-Felix/SINO/releases/download/v0.10-sysbasic-0.3.0/SINO.iso)
+[Chinese ZIP](https://github.com/SkysoftStudio-Felix/SINO-OS/releases/download/v0.10-sysbasic-0.3.0/SINO-0.10-SysBASIC-0.3.0-Chinese.zip) · [English ZIP](https://github.com/SkysoftStudio-Felix/SINO-OS/releases/download/v0.10-sysbasic-0.3.0/SINO-0.10-SysBASIC-0.3.0-English.zip) · [Standalone ISO](https://github.com/SkysoftStudio-Felix/SINO-OS/releases/download/v0.10-sysbasic-0.3.0/SINO.iso)
 
 - English archive: read `Documentation/Getting Started.txt`, then run `Compiled Runtime/Start SINO.cmd`.
 - Chinese archive: read `介绍文件/开始使用.txt`, then run `编译后的运行文件/启动SINO.cmd`.
@@ -85,7 +85,7 @@ Read the [release limitations](<Documentation/Release Notes.md>), [roadmap](<Sou
 
 ## Get involved
 
-Try a release in QEMU, share reproducible bugs in [Issues](https://github.com/SkysoftStudio-Felix/SINO/issues), or improve the documentation and tests. The [contribution guide](CONTRIBUTING.md) lists useful starting points and the [roadmap](<Source Code/docs/roadmap.md>) describes unfinished work.
+Try a release in QEMU, share reproducible bugs in [Issues](https://github.com/SkysoftStudio-Felix/SINO-OS/issues), or improve the documentation and tests. The [contribution guide](CONTRIBUTING.md) lists useful starting points and the [roadmap](<Source Code/docs/roadmap.md>) describes unfinished work.
 
 ## Repository and licenses
 
